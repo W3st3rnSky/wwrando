@@ -51,13 +51,22 @@ PROGRESS_ITEMS = [
   
   "Magic Meter Upgrade",
   
+  "Hurricane Spin",
+  
+  "Progressive Bomb Bag",
+  "Progressive Bomb Bag",
+  "Progressive Quiver",
+  "Progressive Quiver",
+  
   "Ghost Ship Chart",
 ] + \
   ["Progressive Sword"]*4 + \
   ["Progressive Bow"]*3 + \
   ["Progressive Wallet"]*2 + \
   ["Progressive Picto Box"]*2 + \
-  ["Empty Bottle"]*4
+  ["Empty Bottle"]*4 + \
+  ["Piece of Heart"]*44 + \
+  ["Heart Container"]*6
 
 NONPROGRESS_ITEMS = [
   "Telescope",
@@ -68,13 +77,6 @@ NONPROGRESS_ITEMS = [
   # If you got a progress item for your delivery bag when the bag was already full, the new item would simply never enter your inventory.
   #"Complimentary ID",
   "Fill-Up Coupon",
-  
-  "Hurricane Spin",
-  
-  "Progressive Bomb Bag",
-  "Progressive Bomb Bag",
-  "Progressive Quiver",
-  "Progressive Quiver",
   
   "Submarine Chart",
   "Beedle's Chart",
@@ -91,8 +93,6 @@ NONPROGRESS_ITEMS = [
   #"Island Hearts Chart",
   #"IN-credible Chart",
 ] + \
-  ["Piece of Heart"]*44 + \
-  ["Heart Container"]*6
 
 CONSUMABLE_ITEMS = \
    1 * ["Green Rupee"] + \
